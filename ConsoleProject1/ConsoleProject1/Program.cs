@@ -20,7 +20,7 @@ namespace ConsoleProject1
         static void Main(string[] args)
         {
             // Your code goes below here
-            rtruytwqerytuyrqwret
+            
             // Your code goes above here
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
