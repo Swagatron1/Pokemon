@@ -28,30 +28,33 @@ namespace ConsoleProject1
 
         public int Ember()
         {
-            return (health - 15);
+            return (Enemyhealth - 15);
         }
 
         public int Scratch()
         {
-            return (health - 15);
+            return (Enemyhealth - 15);
         }
 
         public int Earthquake()
         {
-            return health - 25;
+            return Enemyhealth - 25;
         }
 
         public int firespin()
         {
-            return health - 35;
+            return Enemyhealth - 35;
         }
 
         public int Bodyslam()
         {
-            return health - 25;
+            return Enemyhealth - 20;
         }
 
-
+        public int thunder()
+        {
+            return Enemyhealth - 30;
+        }
 
 
 

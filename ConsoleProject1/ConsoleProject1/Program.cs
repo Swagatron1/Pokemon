@@ -21,10 +21,10 @@ namespace ConsoleProject1
         {
             // Your code goes below here
             Pokemon Charmander=new Pokemon(Charmander,100,Firespin,Scratch,Ember,Bodyslam);
-            Pokemon  =new Pokemon(,100,,,,)
-             Pokemon  =new Pokemon(,100,,,,)
-             Pokemon  =new Pokemon(,100,,,,)
-             Pokemon  =new Pokemon(,100,,,,)
+            Pokemon Pikachu =new Pokemon(Pikachu,100,,,,)
+             Pokemon Bulbasuar =new Pokemon(,100,,,,)
+             Pokemon Squirtle =new Pokemon(,100,,,,)
+             Pokemon Lapras =new Pokemon(,100,,,,)
 
 
 
