@@ -20,7 +20,20 @@ namespace ConsoleProject1
         static void Main(string[] args)
         {
             // Your code goes below here
-            rtruytwqerytuyrqwret
+            Pokemon Charmander=new Pokemon(Charmander,100,Firespin,Scratch,Ember,Bodyslam);
+            Pokemon  =new Pokemon(,100,,,,)
+             Pokemon  =new Pokemon(,100,,,,)
+             Pokemon  =new Pokemon(,100,,,,)
+             Pokemon  =new Pokemon(,100,,,,)
+
+
+
+
+
+
+
+
+
             // Your code goes above here
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
