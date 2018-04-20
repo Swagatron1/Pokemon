@@ -8,7 +8,13 @@ namespace ConsoleProject1
 {
     class Attack
     {
-        Ember
+        int Ember = 15;
+        int Scratch = 15;
+        int Earthquake = 25;
+        int Firespin = 35;
+        int Bodyslam = 20;
+        int Thunder = 30;
+
         public int Ember()
         {
             return (Enemyhealth - 15);

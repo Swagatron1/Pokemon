@@ -23,6 +23,7 @@ namespace ConsoleProject1
             this.enemyattack2 = enemyattack2;
             this.enemyattack3 = enemyattack3;
         }
+
     }
 
 }
