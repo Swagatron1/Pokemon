@@ -20,11 +20,11 @@ namespace ConsoleProject1
         static void Main(string[] args)
         {
             // Your code goes below here
-            Pokemon Charmander=new Pokemon(Charmander,100,Firespin,Scratch,Ember,Bodyslam);
-            Pokemon Pikachu =new Pokemon(Pikachu,100,,,,)
-             Pokemon Bulbasuar =new Pokemon(,100,,,,)
-             Pokemon Squirtle =new Pokemon(,100,,,,)
-             Pokemon Lapras =new Pokemon(,100,,,,)
+            Pokemon Charmander=new Pokemon("Charmander", 100,,,);
+            Pokemon Pikachu =new Pokemon("Pikachu",100,,,,)
+            Pokemon Bulbasuar =new Pokemon(,100,,,,)
+            Pokemon Squirtle =new Pokemon(,100,,,,)
+            Pokemon Lapras =new Pokemon(,100,,,,)
 
 
 
