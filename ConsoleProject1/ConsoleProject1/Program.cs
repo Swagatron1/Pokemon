@@ -20,12 +20,25 @@ namespace ConsoleProject1
         static void Main(string[] args)
         {
             // Your code goes below here
-            Pokemon Charmander=new Pokemon("Charmander",100,,,,);
-            Pokemon Pikachu =new Pokemon("Pikachu",100,,,,)
-            Pokemon Squirtle =new Pokemon("Squirtle",100,,,,)
-            Pokemon Bulbasaur =new Pokemon("Bulbasuar",100,,,,)
-            Pokemon Geodude =new Pokemon("Geodude",100,,,,)
 
+            //creating attacks
+            Attack ember = new Attack("ember", 15, 15, "fire");
+            Attack scratch = new Attack("",,, "");
+            Attack firespin = new Attack("",,, "");
+            Attack tackle = new Attack("",,, "");
+            Attack quick_attack = new Attack("",,, "");
+            Attack = new Attack("",,, "");
+            Attack = new Attack("",,, "");
+            Attack = new Attack("",,, "");
+            Attack = new Attack("",,, "");
+
+
+            Pokemon Charmander=new Pokemon("Charmander",100,ember,,,);
+            Pokemon Pikachu = new Pokemon("Pikachu", 100,,,,);
+            Pokemon Squirtle = new Pokemon("Squirtle", 100,,,,);
+            Pokemon Bulbasaur = new Pokemon("Bulbasuar", 100,,,,);
+            Pokemon Geodude = new Pokemon("Geodude", 100,,,,);
+            
 
 
 
