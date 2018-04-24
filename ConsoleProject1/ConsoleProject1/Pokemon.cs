@@ -10,13 +10,13 @@ namespace ConsoleProject1
     {
         public string name;
         public int health = 100;
-        public int attack1;
+        public Attack attack1;
         public int attack2;
         public int attack3;
         public int attack4;
 
 
-        public Pokemon(string name, int health, int attack1, int attack2, int attack3, int attack4)
+        public Pokemon(string name, int health, Attack attack1, int attack2, int attack3, int attack4)
         {
             this.name = name;
             this.health = health;
@@ -25,6 +25,17 @@ namespace ConsoleProject1
             this.attack3 = attack3;
             this.attack4 = attack4;
         }
+
+       
+
+
+
+
+
+
+
+
+
 
     }
 }

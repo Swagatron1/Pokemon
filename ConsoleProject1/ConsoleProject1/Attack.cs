@@ -8,41 +8,21 @@ namespace ConsoleProject1
 {
     class Attack
     {
-        int Ember = 15;
-        int Scratch = 15;
-        int Earthquake = 25;
-        int Firespin = 35;
-        int Bodyslam = 20;
-        int Thunder = 30;
+        public string name;
+        public int damage;
+        public int pp;
+        public string type;
 
-        public int Ember()
+
+        public Attack(string name, int damage, int pp, string type)
         {
-            return (Enemyhealth - 15);
+            this.name = name;
+            this.damage = damage;
+            this.pp = pp;
+            this.type = type;
         }
 
-        public int Scratch()
-        {
-            return (Enemyhealth - 15);
-        }
-
-        public int Earthquake()
-        {
-            return Enemyhealth - 25;
-        }
-
-        public int firespin()
-        {
-            return Enemyhealth - 35;
-        }
-
-        public int Bodyslam()
-        {
-            return Enemyhealth - 20;
-        }
-
-        public int thunder()
-        {
-            return Enemyhealth - 30;
-        }
+        
+       
     }
 }

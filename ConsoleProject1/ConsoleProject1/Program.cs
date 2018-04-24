@@ -20,13 +20,25 @@ namespace ConsoleProject1
         static void Main(string[] args)
         {
             // Your code goes below here
-            Pokemon Charmander=new Pokemon(Charmander,100,Firespin,Scratch,Ember,Bodyslam);
-            Pokemon Pikachu = new Pokemon(Pikachu, 100, thunder, scratch, bodySlam, earthquake);
-             Pokemon Bulbasuar =new Pokemon(,100,,,,)
-             Pokemon Squirtle =new Pokemon(,100,,,,)
-             Pokemon Lapras =new Pokemon(,100,,,,)
 
-                Console.WriteLine("Pick a pokemon to battle with.");
+            //creating attacks
+            Attack ember = new Attack("ember", 15, 15, "fire");
+            Attack scratch = new Attack("",,, "");
+            Attack firespin = new Attack("",,, "");
+            Attack tackle = new Attack("",,, "");
+            Attack quick_attack = new Attack("",,, "");
+            Attack = new Attack("",,, "");
+            Attack = new Attack("",,, "");
+            Attack = new Attack("",,, "");
+            Attack = new Attack("",,, "");
+
+
+            Pokemon Charmander=new Pokemon("Charmander",100,ember,,,);
+            Pokemon Pikachu = new Pokemon("Pikachu", 100,,,,);
+            Pokemon Squirtle = new Pokemon("Squirtle", 100,,,,);
+            Pokemon Bulbasaur = new Pokemon("Bulbasuar", 100,,,,);
+            Pokemon Geodude = new Pokemon("Geodude", 100,,,,);
+            
 
 
 
