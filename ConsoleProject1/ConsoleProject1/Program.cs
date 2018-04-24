@@ -23,28 +23,29 @@ namespace ConsoleProject1
 
             //creating attacks
             Attack ember = new Attack("ember", 15, 15, "fire");
-            Attack scratch = new Attack("scratch",,, "");
-            Attack firespin = new Attack("firespin",,, "");
-            Attack tackle = new Attack("tackle",,, "");
-            Attack quick_attack = new Attack("quick_attack",,, "");
-            Attack slam = new Attack("slam",,, "");
-            Attack rock_throw = new Attack("rock_throw",,, "");
-            Attack water_gun = new Attack("water_gun",,, "");
-            Attack bubble = new Attack("",,, "");
-            Attack thunder = new Attack("",,, "");
-            Attack thunder_bolt = new Attack("",,, "");
-            Attack razor_leaf = new Attack("",,, "");
-            Attack vine_whip = new Attack("",,, "");
-            Attack absorb = new Attack("",,, "");
-            Attack petal_dance = new Attack("",,, "");
-            Attack = new Attack("",,, "");
-            Attack = new Attack("",,, "");
-            Attack = new Attack("",,, "");
-            Pokemon Charmander=new Pokemon("Charmander",100,ember,,,);
-            Pokemon Pikachu = new Pokemon("Pikachu", 100,,,,);
-            Pokemon Squirtle = new Pokemon("Squirtle", 100,,,,);
-            Pokemon Bulbasaur = new Pokemon("Bulbasuar", 100,,,,);
-            Pokemon Geodude = new Pokemon("Geodude", 100,,,,);
+            Attack scratch = new Attack("scratch",10,20, "normal");
+            Attack firespin = new Attack("firespin",30,5, "fire");
+            Attack tackle = new Attack("tackle",15,20, "normal");
+            Attack quick_attack = new Attack("quick attack",15,15, "normal");
+            Attack slam = new Attack("slam",20,15, "normal");
+            Attack rock_throw = new Attack("rock throw",25,10, "rock");
+            Attack water_gun = new Attack("water gun",25,5, "water");
+            Attack bubble = new Attack(" bubble",20,10, "water");
+            Attack thunder = new Attack("thunder",25,5, "eletric");
+            Attack thunder_bolt = new Attack("thunder bolt",30,5, "eletric");
+            Attack razor_leaf = new Attack("razor_leaf",25,5, "grass");
+            Attack vine_whip = new Attack("vine_whip",15,15, "grass");
+            Attack absorb = new Attack("absorb",15,20, "grass");
+            Attack petal_dance = new Attack("petal_dance",20,10, "grass");
+            Attack acid = new Attack("acid",20,10, "poison");
+            Attack mud_shot = new Attack("mud shot",15,10, "ground");
+            Attack mud_slap = new Attack("mudslap",15,15, "ground");
+            //Creating pokemon
+            Pokemon Charmander=new Pokemon("Charmander",100,ember,scratch,firespin,tackle);
+            Pokemon Pikachu = new Pokemon("Pikachu", 100,quick_attack,thunder,thunder_bolt,slam);
+            Pokemon Squirtle = new Pokemon("Squirtle", 100,water_gun,bubble,quick_attack,scratch);
+            Pokemon Bulbasaur = new Pokemon("Bulbasuar", 100,vine_whip,acid,petal_dance,razor_leaf);
+            Pokemon Geodude = new Pokemon("Geodude", 100,tackle,slam,rock_throw,mud_slap);
             
 
 
