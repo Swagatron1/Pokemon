@@ -46,7 +46,11 @@ namespace ConsoleProject1
             Pokemon Squirtle = new Pokemon("Squirtle", 100,water_gun,bubble,quick_attack,scratch);
             Pokemon Bulbasaur = new Pokemon("Bulbasuar", 100,vine_whip,acid,petal_dance,razor_leaf);
             Pokemon Geodude = new Pokemon("Geodude", 100,tackle,slam,rock_throw,mud_slap);
-            
+            Pokemon Piplup = new Pokemon("Piplup",);
+            Pokemon Turtonator = new Pokemon("Turtonator",);
+            Pokemon Falamedeiros = new Pokemon("Falamedeiros",);
+            Pokemon Rowlet = new Pokemon("Rowlet",);
+
 
 
 
