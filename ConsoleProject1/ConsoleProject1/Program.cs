@@ -23,16 +23,23 @@ namespace ConsoleProject1
 
             //creating attacks
             Attack ember = new Attack("ember", 15, 15, "fire");
-            Attack scratch = new Attack("",,, "");
-            Attack firespin = new Attack("",,, "");
-            Attack tackle = new Attack("",,, "");
-            Attack quick_attack = new Attack("",,, "");
+            Attack scratch = new Attack("scratch",,, "");
+            Attack firespin = new Attack("firespin",,, "");
+            Attack tackle = new Attack("tackle",,, "");
+            Attack quick_attack = new Attack("quick_attack",,, "");
+            Attack slam = new Attack("slam",,, "");
+            Attack rock_throw = new Attack("rock_throw",,, "");
+            Attack water_gun = new Attack("water_gun",,, "");
+            Attack bubble = new Attack("",,, "");
+            Attack thunder = new Attack("",,, "");
+            Attack thunder_bolt = new Attack("",,, "");
+            Attack razor_leaf = new Attack("",,, "");
+            Attack vine_whip = new Attack("",,, "");
+            Attack absorb = new Attack("",,, "");
+            Attack petal_dance = new Attack("",,, "");
             Attack = new Attack("",,, "");
             Attack = new Attack("",,, "");
             Attack = new Attack("",,, "");
-            Attack = new Attack("",,, "");
-
-
             Pokemon Charmander=new Pokemon("Charmander",100,ember,,,);
             Pokemon Pikachu = new Pokemon("Pikachu", 100,,,,);
             Pokemon Squirtle = new Pokemon("Squirtle", 100,,,,);
