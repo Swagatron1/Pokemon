@@ -40,16 +40,22 @@ namespace ConsoleProject1
             Attack acid = new Attack("acid",20,10, "poison");
             Attack mud_shot = new Attack("mud shot",15,10, "ground");
             Attack mud_slap = new Attack("mudslap",15,15, "ground");
+            Attack dragon_claw = new Attack("dragon_claw",30, 5, "dragon");
+            Attack dragon_tail = new Attack("dragon_tail", 25, 5, "dragon");
+            Attack aqua_tail = new Attack("aqua_tail", 20, 10, "water");
+            Attack solor_blade = new Attack("solor_blade", 20, 15, "grass");
+            Attack solor_beam = new Attack("solor_beam", 25, 5, "grass");
+
             //Creating pokemon
             Pokemon Charmander=new Pokemon("Charmander",100,ember,scratch,firespin,tackle);
             Pokemon Pikachu = new Pokemon("Pikachu", 100,quick_attack,thunder,thunder_bolt,slam);
             Pokemon Squirtle = new Pokemon("Squirtle", 100,water_gun,bubble,quick_attack,scratch);
             Pokemon Bulbasaur = new Pokemon("Bulbasuar", 100,vine_whip,acid,petal_dance,razor_leaf);
             Pokemon Geodude = new Pokemon("Geodude", 100,tackle,slam,rock_throw,mud_slap);
-            Pokemon Piplup = new Pokemon("Piplup",water_gun,bubble,);
-            Pokemon Turtonator = new Pokemon("Turtonator",);
-            Pokemon Falamedeiros = new Pokemon("Falamedeiros",);
-            Pokemon Rowlet = new Pokemon("Rowlet",);
+            Pokemon Piplup = new Pokemon("Piplup",water_gun,bubble,scratch,slam);
+            Pokemon Turtonator = new Pokemon("Turtonator",firespin,ember,tackle,dragon_claw);
+            Pokemon Falamedeiros = new Pokemon("Falamedeiros",ember, scratch, slam, firespin);
+            Pokemon Rowlet = new Pokemon("Rowlet",solor_beam, petal_dance,absorb,acid);
 
 
 
