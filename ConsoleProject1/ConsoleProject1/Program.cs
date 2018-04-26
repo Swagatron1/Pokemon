@@ -52,10 +52,10 @@ namespace ConsoleProject1
             Pokemon Squirtle = new Pokemon("Squirtle", 100,water_gun,bubble,quick_attack,scratch);
             Pokemon Bulbasaur = new Pokemon("Bulbasuar", 100,vine_whip,acid,petal_dance,razor_leaf);
             Pokemon Geodude = new Pokemon("Geodude", 100,tackle,slam,rock_throw,mud_slap);
-            Pokemon Piplup = new Pokemon("Piplup",water_gun,bubble,scratch,slam);
-            Pokemon Turtonator = new Pokemon("Turtonator",firespin,ember,tackle,dragon_claw);
-            Pokemon Falamedeiros = new Pokemon("Falamedeiros",ember, scratch, slam, firespin);
-            Pokemon Rowlet = new Pokemon("Rowlet",solor_beam, petal_dance,absorb,acid);
+            Pokemon Piplup = new Pokemon("Piplup",100,water_gun,bubble,scratch,slam);
+            Pokemon Turtonator = new Pokemon("Turtonator",100,firespin,ember,tackle,dragon_claw);
+            Pokemon Falamedeiros = new Pokemon("Falamedeiros",100,ember, scratch, slam, firespin);
+            Pokemon Rowlet = new Pokemon("Rowlet",100,solor_beam, petal_dance,absorb,acid);
 
 
 
