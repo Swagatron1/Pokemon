@@ -34,7 +34,7 @@ namespace ConsoleProject1
 
 
             Pokemon Charmander=new Pokemon("Charmander",100,ember,,,);
-            Pokemon Pikachu = new Pokemon("Pikachu", 100,,,,);
+            Pokemon Pikachu = new Pokemon("Pikachu", 100,Thunder,,,);
             Pokemon Squirtle = new Pokemon("Squirtle", 100,,,,);
             Pokemon Bulbasaur = new Pokemon("Bulbasuar", 100,,,,);
             Pokemon Geodude = new Pokemon("Geodude", 100,,,,);
