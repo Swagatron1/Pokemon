@@ -57,9 +57,9 @@ namespace ConsoleProject1
             Pokemon Falamedeiros = new Pokemon("Falamedeiros",100,ember, scratch, slam, firespin);
             Pokemon Rowlet = new Pokemon("Rowlet",100,solor_beam, petal_dance,absorb,acid);
 
-
-
-
+            //actual code to choose pokemon
+            Console.WriteLine("choose your pokemon!");
+            List <Pokemon>selection new list
 
 
 
