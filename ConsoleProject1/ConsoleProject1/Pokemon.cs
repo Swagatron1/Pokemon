@@ -8,15 +8,17 @@ namespace ConsoleProject1
 {
     class Pokemon
     {
+
+        //pokemon fields
         public string name;
         public int health = 100;
         public Attack attack1;
-        public int attack2;
-        public int attack3;
-        public int attack4;
+        public Attack attack2;
+        public Attack attack3;
+        public Attack attack4;
 
-
-        public Pokemon(string name, int health, Attack attack1, int attack2, int attack3, int attack4)
+        //pokemon contructor
+        public Pokemon(string name, int health, Attack attack1, Attack attack2, Attack attack3, Attack attack4)
         {
             this.name = name;
             this.health = health;
