@@ -21,7 +21,8 @@ namespace ConsoleProject1
             this.pp = pp;
             this.type = type;
         }
-
+        {
+        
         
        
     }

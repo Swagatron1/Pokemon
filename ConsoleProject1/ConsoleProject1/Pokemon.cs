@@ -27,7 +27,10 @@ namespace ConsoleProject1
             this.attack3 = attack3;
             this.attack4 = attack4;
         }
+        //public string ToString()
+        //{
 
+        //}
        
 
 
