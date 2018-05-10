@@ -12,6 +12,7 @@
 // ---------------------------------------------------------------------------
 
 using System;
+using System.Collections.Generic;
 
 namespace ConsoleProject1
 {
@@ -58,10 +59,13 @@ namespace ConsoleProject1
             Pokemon Rowlet = new Pokemon("Rowlet",100,solor_beam, petal_dance,absorb,acid);
 
             //actual code to choose pokemon
-            Console.WriteLine("choose your pokemon!");
-            List <Pokemon>selection new list
-
-
+            Console.WriteLine("Choose Your Pokemon!");
+            List< Pokemon> selection = new List< Pokemon> { Charmander, Pikachu, Squirtle, Bulbasaur,Geodude,Piplup,Turtonator,Falamedeiros,Rowlet};
+           
+            for (int x = 0; x < selection.Count; x++)
+            {
+                Console.WriteLine(selection[x]);
+            }
 
 
 
