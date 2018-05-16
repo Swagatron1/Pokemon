@@ -11,8 +11,12 @@ namespace ConsoleProject1
         public Pokemon choice;
         public Pokemon enenmychoice;
 
+        //creating pokemon choice
+        public Interactive(Pokemon choice)
+        {
+            this.choice = choice;
 
-
+        }
 
     }
 }

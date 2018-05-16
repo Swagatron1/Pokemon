@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 namespace ConsoleProject1
 {
     class Attack
-    {
+    {//attack feilds
         public string name;
         public int damage;
         public int pp;
         public string type;
 
-
+        //attack constructor
         public Attack(string name, int damage, int pp, string type)
         {
             this.name = name;
@@ -21,7 +21,7 @@ namespace ConsoleProject1
             this.pp = pp;
             this.type = type;
         }
-        {
+        
         
         
        

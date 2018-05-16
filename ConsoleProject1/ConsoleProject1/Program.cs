@@ -60,12 +60,19 @@ namespace ConsoleProject1
 
             //actual code to choose pokemon
             Console.WriteLine("Choose Your Pokemon!");
-            List< Pokemon> selection = new List< Pokemon> { Charmander, Pikachu, Squirtle, Bulbasaur,Geodude,Piplup,Turtonator,Falamedeiros,Rowlet};
-           
+            List< string> selection = new List<string > { Charmander.name, Pikachu.name, Squirtle.name, Bulbasaur.name,Geodude.name,Piplup.name,Turtonator.name,Falamedeiros.name,Rowlet.name};
+           //listing pokemon for player to choose from
             for (int x = 0; x < selection.Count; x++)
             {
                 Console.WriteLine(selection[x]);
             }
+            Console.WriteLine("Type what pokemon you want");
+            //chosing pokemon
+            Pokemon choice = Console.ReadLine(); 
+            Interactive playerchoice = new Interactive(choice);
+
+
+
 
 
 

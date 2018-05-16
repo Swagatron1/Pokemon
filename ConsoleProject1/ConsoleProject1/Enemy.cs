@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 namespace ConsoleProject1
 {
     class Enemy
-    {
+    {//enemy class. enemy feilds being created
         public string enemyname;
         public int enemyhealth = 100;
         public int enemyattack1;
         public int enemyattack2;
         public int enemyattack3;
         public int enemyattack4;
-
+        //enemy constructor
         public Enemy(string enemyname, int enemyhealth, int enemyattack1, int enemyattack2, int enemyattack3)
         {
             this.enemyname = enemyname;
