@@ -67,7 +67,7 @@ namespace ConsoleProject1
                 Console.WriteLine(selection[x]);
             }
             Console.WriteLine("Type what pokemon you want");
-            //chosing pokemon
+            //choosing pokemon
             Pokemon choice = Console.ReadLine(); 
             Interactive playerchoice = new Interactive(choice);
 
