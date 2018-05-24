@@ -71,8 +71,8 @@ namespace ConsoleProject1
             //chosing pokemon
            foreach(Pokemon choice in selection)
             {
+                string x = Console.ReadLine();
                 
-
 
             }
 
